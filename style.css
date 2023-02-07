@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(192, 186, 186);
+    /* width: 300px; */
+    font-family: 'Prompt', sans-serif;
+    height: 100vh;
+    transition: transform 0.5s ease-in;
+    
+}
+.sidebar nav{
+    padding: 30px;
+}
+
+.sidebar nav li{
+    font-weight: 550;
+    list-style: none;
+    font-size: 23px;
+    padding: 40px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    padding: 50px;
+    width: 87vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    margin: 110px auto;
+    /* background-color: rgb(144, 118, 238); */
+    height: 60vh;
+    width: 76vw;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.hello{
+    font-size: 70px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Prompt', sans-serif;
+}
+
+.about{
+    font-size: 45px;
+}
+
+.moreabout{
+    font-size: 25px;
+    font-family: 'Prompt', sans-serif;
+    margin-top: 13px;
+}
+
+.buttons{
+    margin-top: 25px;
+}
+.btn{
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.btn-sm{
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 25px;
+    border: 3px solid black;
+    font-size: 14px;
+    width: 100px;
+    margin-top: -26px;
+}
+
+.devpic img{
+    height: 49vh;
+    width: 600px;
+    margin-top: 25px;
+}
+
+.contactform{
+    padding: 0px 50px;
+    padding-top: 150px;
+    font-family: 'Prompt', sans-serif;
+    margin: 0px 100px;
+}
+
+.contactform h1{
+    font-family: 'Nanum Gothic Coding', monospace;
+    /* text-align: center; */
+    padding: 15px 0px ;
+}
+
+.contactform form div{
+    padding: 8px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    border: 2px solid black;
+    width: 25vw;
+    border-radius: 5px;
+    margin: 6px 0px;
+    padding: 4px;
+}
+
+#emailHelp{
+    font-size: 10px;
+    margin: 0px 5px;
+}
+
+/* #Clientmessage{
+    height: 20vh;
+} */
+
+
+.devinfo h1{
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin: 15px  0px;
+}
+.devinfo h2{
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin: 15px  0px;
+}
+.devinfo p {
+    margin: 0px 0px;
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+}
+.skillcontainer{
+    padding: 10px 0px;
+}
+
+.skill{
+    padding: 0px;
+    width: 265px;
+    height: 6px;
+    background-color: black;
+}
+
+.skillitem{
+    align-items: center;
+}
+
+/* Container for skill bars */
+.container {
+    width: 100%; 
+    background-color: white;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;} 
+  .css {width: 80%; background-color: #2196F3;} 
+  .js {width: 65%; background-color: #f44336;} 
+  .php {width: 60%; background-color: #808080;}
+  
+  /* @media(min-width: 1492px) {
+    .devpic img{
+        height: 40vh;
+        width: 500px;
+        margin-top: 50px;
+    }
+        .infocontainer{
+            width: 155vh;
+        }
+        .name{
+            font-size: 45px;
+        }
+        .about{
+            font-size: 40px;
+        }
+        .moreabout{
+            font-size: 23px;
+        }
+  }
+
+  @media(max-width: 1492px) {
+    .devpic img{
+        height: 40vh;
+        width: 500px;
+        margin-top: 50px;
+    }
+        .infocontainer{
+            width: 155vh;
+        }
+        .name{
+            font-size: 45px;
+        }
+        .about{
+            font-size: 40px;
+        }
+        .moreabout{
+            font-size: 23px;
+        }
+  } */
+
+  .sidebargo{
+        transform: translate(-443px,0px);
+        position: absolute;
+  }
+
+  .hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+  }
+
+  .ham2{
+    margin-left: 200px;
+  }
+
+   @media (max-width: 1600px){
+    /* {
+        background-color: red;
+    }  */
+
+    .devpic{
+        display: none;
+    }
+    /* .sidebar{
+            transform: translate(-443px,0px);
+            position: absolute;
+    } */
+  } 
