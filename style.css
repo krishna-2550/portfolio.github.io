@@ -55,6 +55,7 @@
 }
 
 .devinfo{
+    font-size: 16px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -62,27 +63,28 @@
 }
 
 .hello{
-    font-size: 70px;
+    font-size: 4em;
 }
 
 .name{
-    font-size: 50px;
+    font-size: 3em;
     font-weight: bold;
     font-family: 'Prompt', sans-serif;
 }
 
 .about{
-    font-size: 45px;
+    font-size: 2.5em;
 }
 
 .moreabout{
-    font-size: 25px;
+    font-size: 2em;
     font-family: 'Prompt', sans-serif;
     margin-top: 13px;
 }
 
 .buttons{
     margin-top: 25px;
+    font-size: 16px;
 }
 .btn{
     border: 3px solid black;
@@ -90,7 +92,7 @@
     border-radius: 30px;
     color: white;
     background-color: black;
-    font-size: 18px;
+    font-size: 1em;
     font-weight: bold;
     margin: 0px 0px;
     cursor: pointer;
@@ -264,6 +266,9 @@
 
     .devpic{
         display: none;
+    }
+    .devinfo{
+        font-size: 12px;
     }
     /* .sidebar{
             transform: translate(-443px,0px);
