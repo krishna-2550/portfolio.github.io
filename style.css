@@ -118,7 +118,7 @@
 
 .contactform{
     padding: 0px 50px;
-    padding-top: 150px;
+    /* padding-top: 150px; */
     font-family: 'Prompt', sans-serif;
     margin: 0px 100px;
 }
@@ -126,7 +126,7 @@
 .contactform h1{
     font-family: 'Nanum Gothic Coding', monospace;
     /* text-align: center; */
-    padding: 15px 0px ;
+    /* padding: 15px 0px ; */
 }
 
 .contactform form div{
@@ -137,7 +137,7 @@
 
 .contactform form div input{
     border: 2px solid black;
-    width: 25vw;
+    /* width: 25vw; */
     border-radius: 5px;
     margin: 6px 0px;
     padding: 4px;
@@ -269,3 +269,13 @@
             position: absolute;
     } */
   } 
+
+
+  @media (max-width: 850px){
+        .contactform{
+        padding: 0px 50px;
+        /* padding-top: 150px; */
+        font-family: 'Prompt', sans-serif;
+        margin: 100px -50px;
+    }
+  }
